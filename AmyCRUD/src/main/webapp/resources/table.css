@@ -1,0 +1,55 @@
+	
+	*, html, body {
+		font-family: 'Noto Sans KR', sans-serif;
+	}
+
+	table{
+		width: 500px;
+		border-collapse: collapse;
+		text-align: left;
+	}
+	
+	table thead td{
+		background-color: lightgrey;
+	}
+	
+	
+	table td {
+		vertical-align: top;
+		border-bottom: 1px solid #ccc;
+		max-width: 200px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		cursor: pointer;
+	}
+	a {
+	    color: black;
+	    text-decoration: none;
+	}
+	a:hover{
+	    cursor: pointer;
+	    color:blue;
+	}
+	input {
+	border: none;
+	width: 400px;
+	}
+
+	input:focus {
+		outline: none;
+	}
+	
+	textarea {
+		border: none;
+		width: 400px;
+		height: 200px;
+		resize: none;
+	}
+	
+	textarea:focus {
+		outline: none;
+		background-color: transparent;
+	}
+	
+	
