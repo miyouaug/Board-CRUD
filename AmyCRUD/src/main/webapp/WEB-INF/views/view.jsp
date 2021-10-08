@@ -33,7 +33,7 @@
 			</tr>	
 			<tr>
 				<td>contents</td>
-				<td>${view.contents}</td>
+				<td><textarea>${view.contents}</textarea></td>
 			</tr>
 		</table>
 		<a href="Update.do?idx=${view.idx}">update</a> 		<a href="DeleteProc.do?idx=${view.idx}">delete</a> 
